@@ -18,7 +18,6 @@ The Blackwell frontier induced by graph-based privacy structures (including diff
 </em></small>
 </font>
 
-<hr style="border-top: 1.5px dashed #ccc; margin: 20px 0;">
 
 - **On the Mechanism Underlying Algorithmic Collusion** [[arXiv](https://arxiv.org/abs/2409.01147)]  
 with [Wei Zhao](https://weizhao-econ.weebly.com/research.html), 2024  
@@ -29,7 +28,7 @@ Algorithmic collusion arises from forced convergence, while a lower discount fac
 </em></small>
 </font>
 
-**Artificial Intelligence, Data, and Competition** [[arXiv](https://arxiv.org/abs/2403.06150)]  
+- **Artificial Intelligence, Data, and Competition** [[arXiv](https://arxiv.org/abs/2403.06150)]  
 with [Mingsheng Zhang](https://mingsheng-zhang.github.io/) and [Wei Zhao](https://weizhao-econ.weebly.com/research.html), 2024  
 *(Latest version: December 2025)*  
 
