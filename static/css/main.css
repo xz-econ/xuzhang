@@ -74,6 +74,40 @@ a:hover{
     color: var(--accent-color);
 }
 
+/* 提高优先级，覆盖 #mainNav 的样式 */
+body #mainNav {
+    background-color: var(--bg-main) !important;  /* 宣纸色背景 */
+}
+
+body #mainNav .navbar-brand {
+    color: var(--h-title-color) !important;       /* 品牌文字墨绿灰 */
+}
+
+body #mainNav .navbar-brand:hover,
+body #mainNav .navbar-brand:active {
+    color: var(--accent-color) !important;        /* 悬停/点击时棕色 */
+}
+
+body #mainNav .navbar-nav .nav-item .nav-link {
+    color: var(--h-title-color) !important;       /* 导航文字墨绿灰 */
+    font-weight: 600;                              /* 保留原有字重 */
+}
+
+body #mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: var(--accent-color) !important;        /* 悬停棕色 */
+}
+
+body #mainNav .navbar-nav .nav-item .nav-link.active {
+    color: var(--h-title-color) !important;       /* 激活状态墨绿灰（可根据需要调整） */
+    border-bottom: 2px solid var(--accent-color) !important; /* 激活下划线棕色 */
+}
+
+/* 可选：调整 toggler 按钮颜色（如果需要） */
+body #mainNav .navbar-toggler {
+    color: var(--h-title-color) !important;
+    border-color: rgba(0,0,0,0.1) !important;    /* 可自定义 */
+}
+
 
 /* 柔和渐变块 */
 .bg-gradient-primary-to-secondary-light {
