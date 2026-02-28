@@ -157,3 +157,15 @@ body #mainNav .navbar-toggler {
         margin: 0;
     }
 }
+
+.navbar-logo {
+    width: 11rem;      /* 基础宽度 */
+    max-width: 100%;   /* 防止在窄容器中溢出 */
+    height: auto;      /* 保持宽高比 */
+}
+/* 针对小屏幕缩小logo */
+@media (max-width: 768px) {
+    .navbar-logo {
+        width: 8rem;
+    }
+}
