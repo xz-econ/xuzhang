@@ -157,3 +157,31 @@ body #mainNav .navbar-toggler {
         margin: 0;
     }
 }
+
+
+/* 自定义logo样式 */
+.navbar-logo {
+    width: 3rem;           /* 默认宽度 */
+    height: auto;           /* 保持比例 */
+    max-width: 100%;        /* 防止溢出 */
+    transition: width 0.2s ease; /* 可选：平滑过渡 */
+}
+
+/* 响应式调整 */
+@media (max-width: 576px) {
+    .navbar-logo {
+        width: 1.5rem;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 992px) {
+    .navbar-logo {
+        width: 2rem;
+    }
+}
+
+@media (min-width: 993px) {
+    .navbar-logo {
+        width: 3.5rem;
+    }
+}
