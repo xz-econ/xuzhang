@@ -6,7 +6,7 @@
     --bg-main:#FBF7ED;            /* 主背景宣纸色 */
 }
 
-/* 🌾 主背景 */
+/* 主背景 */
 body{
     background-color: var(--bg-main);
     color:#2B2B2B;
@@ -72,6 +72,33 @@ a{
 
 a:hover{
     color: var(--accent-color);
+}
+
+/* 导航栏整体 */
+.header,
+.navbar {
+    background-color: #F6ECD6;
+}
+
+/* 导航文字 */
+.navbar-nav .nav-link {
+    color: #46544C;
+}
+
+/* hover */
+.navbar-nav .nav-link:hover {
+    color: #7A5A3A;
+}
+
+/* 当前页 */
+.navbar-nav .nav-link.active {
+    color: #2F3A35;
+    border-bottom: 2px solid #7A5A3A;
+}
+
+/* 底边线 */
+.header {
+    border-bottom: solid 1px #46544C;
 }
 
 /* 柔和渐变块 */
