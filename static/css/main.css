@@ -74,31 +74,25 @@ a:hover{
     color: var(--accent-color);
 }
 
-/* 导航栏整体 */
-.header,
-.navbar {
-    background-color: #F6ECD6;
+/* 背景色 */
+#mainNav.header.navbar {
+    background-color: #F6ECD6 !important;  /* 先用 !important 测试，确认后再优化 */
 }
 
-/* 导航文字 */
-.navbar-nav .nav-link {
-    color: #46544C;
+/* 导航文字颜色 */
+#mainNav .navbar-nav .nav-link {
+    color: #46544C !important;
 }
 
-/* hover */
-.navbar-nav .nav-link:hover {
-    color: #7A5A3A;
+/* hover 颜色 */
+#mainNav .navbar-nav .nav-link:hover {
+    color: #7A5A3A !important;
 }
 
-/* 当前页 */
-.navbar-nav .nav-link.active {
-    color: #2F3A35;
-    border-bottom: 2px solid #7A5A3A;
-}
-
-/* 底边线 */
-.header {
-    border-bottom: solid 1px #46544C;
+/* active 颜色（保持你的设计） */
+#mainNav .navbar-nav .nav-link.active {
+    color: #2F3A35 !important;
+    border-bottom: 2px solid #7A5A3A !important;
 }
 
 /* 柔和渐变块 */
